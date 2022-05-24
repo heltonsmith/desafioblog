@@ -1,0 +1,18 @@
+<div id="<%= dom_id post %>">
+  <p>
+    <strong>Title:</strong>
+    <%= post.title %>
+  </p>
+
+  <p>
+    <strong>Image url:</strong>
+    <%= post.image_url %> <br>
+    <%= image_tag post.image_url, size: "100x60"%>
+  </p>
+
+  <p>
+    <strong>Content:</strong>
+    <%= post.content %>
+  </p>
+
+</div>
